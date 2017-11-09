@@ -13,10 +13,6 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 
 function deleteFromDriverByKey(driver, key) {
   const newdriver = {...driver};
-  function dkeyforme() {
-    var dk = delete "newdriver."+key;
-    return dk;
-  }
-  dkeyforme();
+  
   return newdriver;
 }
