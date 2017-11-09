@@ -2,7 +2,7 @@
 const driver = { name: "bob" };
 
 function updateDriverWithKeyAndValue (driver, key, value) {
-  const newObj = {...driver};
+  let newObj = {...driver};
   newObj[age] = 20;
   return newObj;
 }
